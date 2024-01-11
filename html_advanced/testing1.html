@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <style>
+        h1 {
+            color:black;
+            text-align: center;
+            font-family: Times New Roman;
+            font-weight: bold;
+        }
+        ul {
+            color: red;
+    
+        }
+        table {
+            border-collapse: collapse;
+            
+        }
+        td, th {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Seth Barasa Wanyonyi</h1>
+    <img src="C:\Users\Hp\OneDrive\Pictures\My Image.png" alt="Me" width="300">
+    <br><br>
+
+    Favorite places:
+    <ul>
+        <li>Alchemist</li>
+        <li>Quiver</li>
+    </ul>
+    Best friends:
+    <ol>
+        <li>Seth</li>
+        <li>Sammy</li>
+        <li>Josiah</li>
+    </ol>
+    <a href="https://test.loganwritingservices.com" target="_blank">My Project</a>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Seth</td>
+                <td>23</td>
+                <td>Kenya</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    <form>
+        <div>
+            <input name="name" type="text" placeholder="Full Name">
+            <input name="Password" type="Password" placeholder="Password">
+            <input type="Submit" placeholder="Submit">
+        </div>
+        <br><br>
+        <div>
+            What is your gender?
+            <input name="gender" type="radio" value="Male">Male
+            <input name="gender" type="radio" value="Female">Female
+
+        </div>
+        <br><br>
+        <div>
+            <input name="Country" list="countries" placeholder="Country">
+            <datalist id="countries">
+                <option value="Kenya">
+                <option value="Uganda">
+                <option value="Tanzania">
+                <option value="Rwanda">
+                <option value="Burundi">
+            </datalist>
+        </div>
+    </form>
+</body>
+</html>
