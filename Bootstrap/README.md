@@ -1,1 +1,1 @@
-These are the bootsrap project files
+Bootsrap project files
